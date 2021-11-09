@@ -1,0 +1,19 @@
+{
+  "name": "botforanya",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.6",
+    "node-fetch": "^3.0.0",
+    "node-telegram-bot-api": "^0.54.0",
+    "nodemon": "^2.0.14"
+  }
+}
